@@ -245,7 +245,7 @@ footer {
   }
 }
 
-/* SIMPLE SWAP (NO ANIMATION) */
+
 
 .cookie-stage {
   width: min(900px, 92vw);
@@ -291,5 +291,99 @@ footer {
 .hidden {
   display: none;
 }
+.submit-section {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.submit-section h2 {
+  font-family: "PoppinsBold", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.submit-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  gap: 12px;
+}
+
+.submit-form input,
+.submit-form select,
+.submit-form textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.submit-form textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+#submitMsg {
+  margin-top: 12px;
+  font-weight: 300;
+}
+
+.submit-section {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.submit-section h2 {
+  font-family: "PoppinsBold", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.submit-form {
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  align-items: start;
+}
+
+.submit-form input,
+.submit-form select,
+.submit-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.submit-form textarea {
+  min-height: 100px;
+  resize: vertical;
+  grid-column: 1 / -1; 
+}
+
+.submit-form button {
+  grid-column: 1 / -1; /* makes button full width */
+  justify-self: center;
+  width: fit-content;
+  padding: 12px 25px;
+}
+
+#submitMsg {
+  margin-top: 12px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
 
 
+@media (max-width: 700px) {
+  .submit-form {
+    grid-template-columns: 1fr;
+  }
+}

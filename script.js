@@ -120,6 +120,38 @@ document.addEventListener("DOMContentLoaded", () => {
         "A historical romance set aboard the RMS Titanic, following a young woman who reconsiders her life and identity after falling in love during the ship’s ill-fated voyage.",
       image: "images/titanic.jpg",
     },
+    {
+  quote: "Lights will guide you home.",
+  category: "Music",
+  title: "Fix You",
+  description: "A song by Coldplay that reflects on offering comfort and support during moments of loss, pain, and emotional struggle.",
+  image: "images/fixyou.jpg"
+},
+{
+  quote: "You gave me a forever within the numbered days, and I'm grateful.",
+  category: "Book",
+  title: "The Fault in Our Stars",
+  description: "A young adult novel about two teenagers with cancer who fall in love while navigating illness, mortality, and the meaning of life during a short but profound relationship.",
+  image: "images/thefaultinourstars.jpg"
+},
+{
+  quote: "Stop thinking about what I want, what he wants, what your parents want. What do you want?",
+  category: "Movie",
+  title: "The Notebook",
+  description: "A romantic drama about a young couple whose love endures over time despite social pressures, family expectations, and life’s obstacles.",
+  image: "images/thenotebook.jpg"
+}, 
+{
+  quote: "A bit of madness is key to give us new colors to see. Who knows where it will lead us?",
+  category: "Movie",
+  title: "La La Land",
+  description: "A musical romance about two aspiring artists in Los Angeles who pursue their creative dreams while navigating love, ambition, and the sacrifices required to follow passion.",
+  image: "images/lalaland.jpg"
+}
+
+
+
+
   ];
 
   

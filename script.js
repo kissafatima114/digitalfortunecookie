@@ -147,7 +147,22 @@ document.addEventListener("DOMContentLoaded", () => {
   title: "La La Land",
   description: "A musical romance about two aspiring artists in Los Angeles who pursue their creative dreams while navigating love, ambition, and the sacrifices required to follow passion.",
   image: "images/lalaland.jpg"
+}, 
+{
+  quote: "There's always that one person that will always have your heart. You'll never see it coming 'cause you're blinded from the start.",
+  category: "Music",
+  title: "My Boo",
+  description: "A duet by Usher and Alicia Keys about a deep, lasting emotional connection that continues even as time passes and circumstances change.",
+  image: "images/myboo.jpg"
 }
+{
+  quote: "And I'll be here, 'cause we both know how it goes. I don't want things to change, I pray they stay the same.",
+  category: "Music",
+  title: "Always",
+  description: "A song by Daniel Caesar that reflects on commitment, reassurance, and the desire for emotional stability within a close relationship.",
+  image: "images/always.jpg"
+}
+
 
 
 

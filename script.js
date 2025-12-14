@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       quote: "Trust is a fragile glass, shattered by the slightest betrayal.",
       category: "Book",
-      title: "The Housemaid",
+      title: "The Housemaid By Freida Mcfadden",
       description:
         "A psychological thriller about a young woman who takes a job working for a wealthy family, only to discover that the household is filled with secrets, manipulation, and hidden danger.",
       image: "images/thehousemaid.jpg",
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
       quote:
         "It's never easy falling in love again, cover my scars when I open my arms.",
       category: "Music",
-      title: "Open Hearts",
+      title: "Open Hearts By The Weeknd",
       description:
         "A song by The Weeknd that reflects on emotional vulnerability, past heartbreak, and the difficulty of trusting again while seeking connection.",
       image: "images/openhearts.jpg",
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
       quote:
         "Patience, he thought. So much of this was patience—waiting, thinking, and doing things right. So much of all living was patience and thinking.",
       category: "Book",
-      title: "Hatchet",
+      title: "Hatchet By Gary Paulsen",
       description:
         "A survival novel about a teenage boy who must rely on patience, observation, and problem-solving skills after being stranded alone in the Canadian wilderness following a plane crash.",
       image: "images/hatchet.jpg",
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       quote: "Could change all the ways you've been living, but you just couldn't stop.",
       category: "Music",
-      title: "White Mustang",
+      title: "White Mustang By Lana Del Ray",
       description:
         "A song by Lana Del Rey that reflects on a complicated romantic relationship, focusing on emotional distance, longing, and the inability to change destructive patterns.",
       image: "images/whitemustang.jpg",
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
       quote:
         "Let's go all the way tonight, no regrets, just love. We can dance until we die. You and I will be young forever.",
       category: "Music",
-      title: "Teenage Dream",
+      title: "Teenage Dream By Katy Perry",
       description:
         "A pop song by Katy Perry that celebrates youthful freedom, romance, and living fully in the present moment without fear of the future.",
       image: "images/item.png",
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
       quote:
         "Remember that wherever your heart is, there you will find your treasure.",
       category: "Book",
-      title: "The Alchemist",
+      title: "The Alchemist By Paulo Coelho",
       description:
         "A philosophical novel about a young shepherd who travels in search of a hidden treasure, discovering the importance of following one’s dreams and listening to the heart along the journey.",
       image: "images/thealchemist.jpg",
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
       quote:
         "Love looks not with the eyes, but with the mind; and therefore is wing'd Cupid painted blind.",
       category: "Book",
-      title: "A Midsummer Night’s Dream",
+      title: "A Midsummer Night’s Dream By William Shakespeare",
       description:
         "A comedic play in which multiple characters become entangled in love through magic and misunderstanding, exploring how desire, illusion, and emotion disrupt reason and judgment.",
       image: "images/midsummernightsdream.jpg",
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
       quote:
         "I don't wanna tiptoe, but I don't wanna hide. I just wanna let this story die.",
       category: "Music",
-      title: "We Can’t Be Friends (Wait for Your Love)",
+      title: "We Can’t Be Friends (Wait for Your Love) By Ariana Grande",
       description:
         "A song by Ariana Grande that explores the emotional tension of ending a romantic relationship while struggling with unresolved feelings and the desire for distance and healing.",
       image: "images/wecantbefriends.jpg",
@@ -123,14 +123,14 @@ document.addEventListener("DOMContentLoaded", () => {
     {
   quote: "Lights will guide you home.",
   category: "Music",
-  title: "Fix You",
+  title: "Fix You By Coldplay",
   description: "A song by Coldplay that reflects on offering comfort and support during moments of loss, pain, and emotional struggle.",
   image: "images/fixyou.jpg"
 },
 {
   quote: "You gave me a forever within the numbered days, and I'm grateful.",
   category: "Book",
-  title: "The Fault in Our Stars",
+  title: "The Fault in Our Stars By John Green",
   description: "A young adult novel about two teenagers with cancer who fall in love while navigating illness, mortality, and the meaning of life during a short but profound relationship.",
   image: "images/thefaultinourstars.jpg"
 },
@@ -151,19 +151,17 @@ document.addEventListener("DOMContentLoaded", () => {
 {
   quote: "There's always that one person that will always have your heart. You'll never see it coming 'cause you're blinded from the start.",
   category: "Music",
-  title: "My Boo",
+  title: "My Boo By Usher and Alicia Keys",
   description: "A duet by Usher and Alicia Keys about a deep, lasting emotional connection that continues even as time passes and circumstances change.",
   image: "images/myboo.jpg"
-}
+},
 {
   quote: "And I'll be here, 'cause we both know how it goes. I don't want things to change, I pray they stay the same.",
   category: "Music",
-  title: "Always",
+  title: "Always By Daniel Caesar",
   description: "A song by Daniel Caesar that reflects on commitment, reassurance, and the desire for emotional stability within a close relationship.",
   image: "images/always.jpg"
 }
-
-
 
 
 

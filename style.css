@@ -1,0 +1,295 @@
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("fonts/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #1e1e1e;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #d9a86b;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 12px 16px;
+  box-shadow: 5px 5px 5px rgb(147, 146, 137);
+  z-index: 1000;
+}
+
+.header-content {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-family: "PoppinsBold", sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: line-through;
+}
+
+.cookie-section {
+  text-align: center;
+  padding: 120px 20px 60px;
+}
+
+#fortune-btn {
+  background-color: #d9a86b;
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin: 20px auto 0;
+}
+
+#fortune-btn:hover {
+  box-shadow: 0 5px;
+  transform: translateY(4px);
+}
+
+.categories {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.categories h2 {
+  font-family: "PoppinsBold", sans-serif;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.cat-btn {
+  background-color: #d9a86b;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cat-btn:hover {
+  background-color: #c38f56;
+  box-shadow: 0 5px;
+  transform: translateY(4px);
+}
+
+.cat-btn.active {
+  background-color: #c38f56;
+  box-shadow: 0 5px;
+  transform: translateY(4px);
+}
+
+.page-content {
+  max-width: 700px;
+  margin: 160px auto 60px;
+  padding: 40px;
+  background-color: #d9a86b;
+  box-shadow: 5px 5px 5px rgb(147, 146, 137);
+  border-radius: 8px;
+}
+
+.page-content h2 {
+  font-family: "PoppinsBold", sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.page-content p,
+.page-content li {
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #1e1e1e;
+}
+
+.fortune-page {
+  text-align: left;
+}
+
+#fortune-quote {
+  font-family: "PoppinsBold", sans-serif;
+  font-size: 22px;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+
+.fortune-details {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+#fortune-image {
+  width: 220px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgb(147, 146, 137);
+}
+
+.fortune-text h3 {
+  font-family: "PoppinsBold", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#fortune-category {
+  font-family: sans-serif;
+  font-weight: 300;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#fortune-description {
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 18px;
+  background-color: #d9a86b;
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.back-btn:hover {
+  box-shadow: 0 5px;
+  transform: translateY(4px);
+}
+
+.where-btn {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 12px 18px;
+  background-color: #d9a86b;
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.where-btn:hover {
+  box-shadow: 0 5px;
+  transform: translateY(4px);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 700px) {
+  .fortune-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fortune-page {
+    text-align: center;
+  }
+
+  #fortune-image {
+    width: 260px;
+  }
+}
+
+/* SIMPLE SWAP (NO ANIMATION) */
+
+.cookie-stage {
+  width: min(900px, 92vw);
+  margin: 0 auto 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cookie-whole {
+  width: 420px;
+  height: auto;
+  display: block;
+}
+
+.cookie-cracked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cookie-half {
+  width: 260px;
+  height: auto;
+  display: block;
+}
+
+.fortune-strip {
+  width: min(420px, 70vw);
+  background: #fff;
+  padding: 18px 16px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgb(147, 146, 137);
+  text-align: center;
+}
+
+#fortunePreview {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.hidden {
+  display: none;
+}
+
+

@@ -1,20 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Fortune Cookie</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Fortune Cookie</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<!--test comments hihi hello-->
 <body>
-    <h1>DIGITAL FORTUNE COOKIE</h1> 
-    <!-- this is a cat-->
-    <h2> This is subheading</h2>
-    <img src="images/cat.jpg">
-    <br>
-    <p>hello this where you'll see your fortune</p>
-    
+
+<header>
+  <div class="header-content">
+    <h1>DIGITAL FORTUNE COOKIE</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="how-it-works.html">HOW IT WORKS</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- COOKIE SECTION -->
+  <section class="cookie-section">
+
+    <div class="cookie-stage">
+
+      <!-- CLOSED COOKIE -->
+      <img
+        src="images/fortunecookiedrawing.png"
+        alt="Fortune Cookie"
+        class="cookie-whole"
+        id="cookieWhole"
+      >
+
+      <!-- CRACKED HALVES-->
+      <div class="cookie-cracked hidden" id="cookieCracked">
+
+        <img
+          src="images/cookieleft.png"
+          alt="Left half of fortune cookie"
+          class="cookie-half"
+        >
+
+        <div class="fortune-strip">
+          <p id="fortunePreview"></p>
+        </div>
+
+        <img
+          src="images/cookieright.png"
+          alt="Right half of fortune cookie"
+          class="cookie-half"
+        >
+
+      </div>
+
+    </div>
+
+    <!-- SINGLE ACTION BUTTON -->
+    <button id="fortune-btn">CRACK OPEN</button>
+
+    <!-- LINK TO DETAILS PAGE -->
+    <a href="fortune.html" id="where-btn" class="where-btn hidden">
+      WHERE IS THIS FROM?
+    </a>
+
+  </section>
+
+  <!-- CATEGORIES -->
+ <section class="categories" id="categoriesSection">
+    <h2>FORTUNE CATEGORIES</h2>
+    <div class="category-buttons">
+      <button class="cat-btn" data-category="Music">Music</button>
+      <button class="cat-btn" data-category="Movie">Movies</button>
+      <button class="cat-btn" data-category="Book">Books</button>
+    </div>
+  </section>
+
+  <!-- SUBMIT SECTION -->
+  <section class="submit-section">
+    <h2>SUBMIT A FORTUNE</h2>
+
+    <form id="submitForm" class="submit-form">
+      <input
+        type="text"
+        id="userQuote"
+        placeholder="Quote"
+        required
+      >
+
+      <input
+        type="text"
+        id="userTitle"
+        placeholder="Movie / Book / Song Title"
+        required
+      >
+
+      <select id="userCategory" required>
+        <option value="Movie">Movie</option>
+        <option value="Book">Book</option>
+        <option value="Music">Music</option>
+      </select>
+
+      <textarea
+        id="userDescription"
+        placeholder="One-sentence synopsis"
+        required
+      ></textarea>
+
+      <button type="submit" class="cat-btn">
+        ADD FORTUNE
+      </button>
+    </form>
+
+    <p id="submitMsg"></p>
+  </section>
+
+</main>
+
+<footer>
+  <p>kissa©</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
+
+

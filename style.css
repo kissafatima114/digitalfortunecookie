@@ -291,6 +291,7 @@ footer {
 .hidden {
   display: none;
 }
+/* submission page styling*/
 .submit-section {
   background-color: #ffffff;
   padding: 50px 20px;
@@ -369,7 +370,7 @@ footer {
 }
 
 .submit-form button {
-  grid-column: 1 / -1; /* makes button full width */
+  grid-column: 1 / -1; 
   justify-self: center;
   width: fit-content;
   padding: 12px 25px;
@@ -387,3 +388,4 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+

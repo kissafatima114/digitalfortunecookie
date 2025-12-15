@@ -15,7 +15,7 @@ if (navToggle && navMenu) {
     });
   });
 }
-
+// code added for the tab to navigate pages above"
   const fortunes = [  // THIS IS WHERE I HOLD ALL THE MEDIA THAT WILL BE THE FORTUNE
     {
       quote: "The past can hurt. But you can either run from it or learn from it.",

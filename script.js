@@ -1,4 +1,21 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const navToggle = document.getElementById("navToggle");
+const navMenu = document.getElementById("navMenu");
+
+if (navToggle && navMenu) {
+  navToggle.addEventListener("click", () => {
+    const isOpen = navMenu.classList.toggle("open");
+    navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+
+  navMenu.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      navMenu.classList.remove("open");
+      navToggle.setAttribute("aria-expanded", "false");
+    });
+  });
+}
+
   const fortunes = [  // THIS IS WHERE I HOLD ALL THE MEDIA THAT WILL BE THE FORTUNE
     {
       quote: "The past can hurt. But you can either run from it or learn from it.",
